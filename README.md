@@ -21,9 +21,9 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/manucoutinho/vite-react-ts-template
+$ git clone https://github.com/ManuCoutinho/next-boilerplate
 # Access
-$ cd vite-react-ts-template
+$ cd boilerplate
 # Install dependencies
 $ npm install
 # Run the project
