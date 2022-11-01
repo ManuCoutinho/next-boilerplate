@@ -20,15 +20,19 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ## :checkered_flag: Starting
 
 ```bash
-# Clone this project
-$ git clone https://github.com/ManuCoutinho/next-boilerplate
+# Use as a Next.js template
+$ npx create next-app -e https://github.com/ManuCoutinho/next-boilerplate
+
 # Access
-$ cd boilerplate
-# Install dependencies
-$ npm install
+$ cd <your-project>
+
 # Run the project
 $ npm run dev
+
 # The server will initialize in the <http://localhost:3000>
+
+# Or Clone this project
+$ git clone https://github.com/ManuCoutinho/next-boilerplate
 ```
 
 ## :memo: License
