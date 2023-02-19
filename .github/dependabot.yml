@@ -11,7 +11,7 @@ updates:
       interval: "weekly"
     ignore:
       - dependency-name: '*'
-      update-types: ['version-update:semver-patch']
+        update-types: ['version-update:semver-patch']
     commit-message:
       prefix: 'npm prod'
       prefix-development: 'npm dev'
