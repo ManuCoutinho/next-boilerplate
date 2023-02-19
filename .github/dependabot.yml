@@ -9,8 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-      ignore:
-      - dependency-name: '*'
+    ignore:
+        - dependency-name: '*'
         update-types: ['version-update:semver-patch']
     commit-message:
       prefix: 'npm prod'
@@ -18,3 +18,5 @@ updates:
       include: 'scope'
     reviewers:
       - 'ManuCoutinho'
+
+ 
